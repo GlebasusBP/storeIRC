@@ -1,0 +1,59 @@
+header {
+	background: rgba(255, 255, 255, 0.75);
+	box-shadow: 0px 25px 20px -25px rgba(105, 106, 126, 0.10);
+	position: relative;
+	z-index: 10;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 0;
+}
+
+.header-list {
+	display: flex;
+	justify-content: space-between;
+	width: 823px;
+	font-size: 13px;
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+
+.header-icons-list {
+	display: flex;
+	justify-content: space-between;
+	width: 201px;
+}
+
+.header-icons-list__item {
+	position: relative;
+}
+
+.header-icons-list__item-icon {
+	cursor: pointer;
+}
+
+.header-icons-list__item-counter {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 17px;
+	height: 17px;
+	background-color: $red;
+	border: 3px solid $white;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	left: 15px;
+}
+
+.header-icons-list__item-counter-number {
+	color: $white;
+	font-size: 10px;
+}
