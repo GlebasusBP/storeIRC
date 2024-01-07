@@ -1,0 +1,53 @@
+
+.burger-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	width: 22px;
+	height: 22px;
+	padding: 4px 0;
+	cursor: pointer;
+}
+
+.berger-menu__line {
+	border: 1px solid $red;
+	border-radius: 1px;
+}
+
+.btn {
+	display: block;
+	background-color: $red;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+.btn-wrapper {
+	display: flex;
+	padding: 26px 50px;
+	gap: 20px;
+}
+
+.btn__text {
+	color: $white;
+	font-family: Manrope;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+}
+
+.doted {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.doted-active {
+	width: 16px;
+	height: 16px;
+	border: 1px solid $red;
+	padding: 4px;
+	border-radius: 50%;
+}

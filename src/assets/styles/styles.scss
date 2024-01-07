@@ -1,6 +1,8 @@
 @import './colors.scss';
-// @import './fonts.scss';
+@import './fonts.scss';
 @import './reset.scss';
+@import './variables.scss';
+@import './elements.scss';
 
 @import './blocks/_header.scss';
 @import './blocks/_topblock.scss';

@@ -1,7 +1,62 @@
 .topblock {
-	background: linear-gradient(90deg, #A8C8FF 21.96%, #CCDAF2 98.88%);
-	padding-top: 290px;
-	padding-bottom: 145px;
+	background: 
+							linear-gradient(90deg, #A8C8FF 21.96%, #CCDAF2 98.88%);
 	position: relative;
 	top: -100px;
 }
+
+.topblack-bg-images {
+	background: url('/src/assets/images/pictures/skin-11.png') right 60px bottom / 855px 753px no-repeat,
+							url('/src/assets/images/icons/Vector.svg') left bottom / 621px 575px no-repeat;
+	padding-top: 290px;
+	padding-bottom: 145px;
+}
+
+.topblock-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.topblock-titles {
+	width: 953px;
+}
+
+.topblock-title {
+	font-family: $EuropeExp;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 85px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.topblock-subtitle {
+	font-family: 'Manrope';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 4.2px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+
+.topblock-subtitle-red {
+	display: inline;
+	color: $white;
+	background-color: $red;
+	padding: 5px 10px;
+}
+
+.topblock-btn {
+	margin-top: 30px;
+}
+
+.topblock-pagination {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+

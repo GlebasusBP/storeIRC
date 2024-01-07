@@ -30,7 +30,7 @@ module.exports = {
 			},
 			{
 				test: /\.(eot|ttf|woff|woff2|svg|png|jpg|jpeg|gif)$/i,
-				type: "assets/resource",
+				type: "asset",
 			}
 		]
 	},
